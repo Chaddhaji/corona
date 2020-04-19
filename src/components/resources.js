@@ -389,7 +389,7 @@ function Resources(props) {
 
   const openSharingLink = function (message) {
     const shareUri = `https://www.addtoany.com/share#url=${encodeURI(
-      'https://www.covid19india.org/essentials'
+      'https://www.google.com/essentials'
     )}&title=${encodeURI(message)}`;
 
     const h = 500;
@@ -419,7 +419,7 @@ function Resources(props) {
         .share({
           title: document.title,
           text: message,
-          url: 'https://www.covid19india.org/essentials',
+          url: 'https://www.google.com/essentials',
         })
         .then()
         .catch((error) => console.log(error));
